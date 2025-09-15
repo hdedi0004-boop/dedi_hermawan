@@ -1,0 +1,291 @@
+/* Reset & dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0e1b34;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #0e1b34;
+}
+
+nav .logo {
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00e6ff;
+}
+
+/* Container umum */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 50px;
+  gap: 30px;
+}
+
+/* Intro & teks */
+.intro {
+  max-width: 450px;
+}
+
+.intro h1,
+.intro h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.intro h3 {
+  font-weight: bold;
+  margin: 5px 0 20px 0;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Tombol */
+.btn,
+.btn-glow {
+  background-color: #00e6ff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #0e1b34;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00e6ff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover,
+.btn-glow:hover {
+  background-color: #00c3d9;
+  box-shadow: 0 0 20px #00e6ff, 0 0 30px #00aaff;
+}
+
+/* Efek glow teks */
+.text-glow,
+.highlight {
+  color: #00e6ff;
+  text-shadow:
+    0 0 5px #00e6ff,
+    0 0 10px #00e6ff,
+    0 0 20px #00e6ff;
+}
+
+/* Foto profil */
+.profile-pic,
+.photo-glow {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #00e6ff;
+  overflow: hidden;
+  border: 5px solid #00e6ff;
+}
+
+.profile-pic img,
+.photo-glow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Social icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00e6ff;
+}
+
+a {
+  text-decoration: none;
+}
+/* Reset & dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0e1b34;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0e1b34;
+}
+
+nav .logo {
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00e6ff;
+}
+
+/* Container umum */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 50px;
+  gap: 30px;
+}
+
+/* Intro & teks */
+.intro {
+  max-width: 500px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  margin-bottom: 15px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Tombol */
+.btn {
+  background-color: #00e6ff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #0e1b34;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00e6ff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #00c3d9;
+  box-shadow: 0 0 20px #00e6ff, 0 0 30px #00aaff;
+}
+
+/* Efek glow teks */
+.text-glow {
+  color: #00e6ff;
+  text-shadow: 0 0 5px #00e6ff,
+               0 0 10px #00e6ff,
+               0 0 20px #00e6ff;
+}
+
+/* Foto profil */
+.photo-glow {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #00e6ff;
+  overflow: hidden;
+  border: 5px solid #00e6ff;
+}
+
+.photo-glow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Tabel Akademik */
+.glow-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 230, 255, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.glow-table th, 
+.glow-table td {
+  padding: 12px 18px;
+  text-align: center;
+}
+
+.glow-table thead {
+  background-color: #00e6ff;
+  color: #0e1b34;
+  font-weight: bold;
+}
+
+.glow-table tbody tr:nth-child(even) {
+  background-color: #16294d;
+}
+
+.glow-table tbody tr:nth-child(odd) {
+  background-color: #1c345c;
+}
+
+.glow-table tbody tr:hover {
+  background-color: #22406f;
+  transition: 0.3s;
+}
+
+
